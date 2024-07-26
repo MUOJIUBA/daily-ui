@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.5.2-web/css/all.min.css">
+    </head>
+<body style="display: grid; height: 548px; place-items: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+    <div style=" display: flex; outline-offset: 2px; border-radius: 5px; height: 400px; width: 600px; box-shadow: 0 0 10px rgba( 0, 0, 0, 0.4)">
+        <div style="flex-basis: 30%; text-align: center; padding: 10px; padding-top: 20px; line-height: 1.5; background-color: rgb(236, 217, 217);">
+            <div>
+                <b style="font-family: Arial, Helvetica, sans-serif; font-style: oblique; color: rgb(255, 0, 0); font-weight: bolder; font-size: xx-large;">H<span style="font-size: medium; ">&</span>M</b> <br>
+                <b style="color: grey;">YOUR ORDER</b>
+            </div>
+            <div style="border: 3px solid white; border-radius: 5px; height: 170px; width: 200px; margin-top: 5px;background-color: white;display: grid; place-items: center; outline-offset: 2px; box-shadow: 0 0 10px rgba(0 , 0, 0, 0.4);"><span style="margin-left: 160px; font-size: x-large; margin-top: -5px; cursor: pointer;">&times;</span>
+                <img src="./img/bag.jpg" alt="bag" height="120px" width="120px" style="margin-top: -30px;">
+                <div style="line-height: 1.2; font-size: small; margin-bottom: 15px; color: rgb(92, 85, 85);">
+                    Suede Shopper <br>
+                    Color: Light beige <br>
+                    <b>Price:$129</b>
+                </div>
+            </div>
+            <div style="display: grid; place-content: center;">
+                <div style="display: flex; font-size: 8px; color: rgb(92, 85, 85); letter-spacing: 4px; line-height: 4;">
+                    <div><i class="fa-solid fa-circle"></i></div>
+                    <div style="color: red;"><i class="fa-solid fa-circle"></i></div>
+                    <div><i class="fa-solid fa-circle"></i></div>
+                    <div><i class="fa-solid fa-circle"></i></div>
+                    <div><i class="fa-solid fa-circle"></i></div>
+                </div>        
+            </div>    
+            <div style="line-height: 1; padding-top: 10px; color: rgb(92, 85, 85);">
+                TOTAL <br>
+                <span style="font-size: x-large;"><b>$145.98</b></span>
+            </div>
+        </div>
+        <div style="flex-basis: 70%; color: grey;">
+            <div style=" text-align: center; margin-top: 70px; margin-bottom: 15px;"><b>PAY WITH CREDIT CARD</b></div>
+            <div style="margin-left: 80px; font-size: small;">
+                <form action="/submit" method="post">
+                    <div>
+                        <b>Name of card holder:</b> <br>
+                        <input type="text" style="height: 25px; width: 200px;  margin-bottom: 15px;">
+                    </div>
+                    <div>
+                        <b>Credit Card Number:</b> <br>
+                        <input type="text" style="height: 25px; width: 200px; margin-bottom: 15px;">
+                        
+                    </div>
+                    <div style="display: flex; margin-bottom: 30px;">
+                    <div>
+                        <b>Expiration Date</b> <br>
+                        <select name="month" id="" style="height: 25px; width: 60px;">
+                            <option value="select">Month</option>
+                            <option value="select">1</option>
+                            <option value="select">2</option>
+                            <option value="select">3</option>
+                            <option value="select">4</option>
+                            <option value="select">5</option>
+                            <option value="select">6</option>
+                            <option value="select">7</option>
+                            <option value="select">8</option>
+                            <option value="select">9</option>
+                            <option value="select">10</option>
+                            <option value="select">11</option>
+                            <option value="select">12</option>
+                        </select>
+                        <select name="year" id="" style="height: 25px; width: 50px;margin-left: 0%;">
+                            <option value="select"><b>Year</b></option>
+                            <option value="select">2024</option>
+                            <option value="select">2025</option>
+                            <option value="select">2026</option>
+                            <option value="select">2027</option>
+                            <option value="select">2028</option>
+                            <option value="select">2029</option>
+                            <option value="select">2030</option>
+                            <option value="select">2031</option>
+                            <option value="select">2032</option>
+                            <option value="select">2033</option>
+                            <option value="select">2034</option>
+                            <option value="select">2035</option>
+                        </select>
+                    </div>
+                    <div style=" margin-left: 15px;">
+                        <b>CVC</b> <br>
+                        <input type="text" style="height: 19px; width: 70px;">
+                    </div>
+                </div>
+                    <button style="color: white; background-color: red; height: 40px; width: 205px; border: 1px solid red; border-radius: 5px; cursor: pointer;"><b>PAY SECURELY</b></button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
